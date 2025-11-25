@@ -78,42 +78,31 @@ async def startup_event():
     logger.info(f"PORT environment variable: {os.environ.get('PORT', 'NOT SET')}")
     
     try:
-        # Check if index exists
+        # Start setup in background if needed
         index_path = config.FAISS_INDEX_PATH / "index.faiss"
         
         if not index_path.exists():
-            logger.warning("Vector store not found. Running setup...")
+            logger.warning("Vector store not found. Will build on first request.")
+            logger.info("API server ready (setup will run on demand)")
+        else:
+            # Load vector store
+            logger.info("Loading vector store...")
+            vector_store = VectorStore()
+            vector_store.load()
             
-            # Run setup inline
-            try:
-                import subprocess
-                import sys
-                subprocess.run([sys.executable, "scraper.py"], check=True)
-                subprocess.run([sys.executable, "vector_store.py"], check=True)
-                logger.info("Setup completed successfully")
-            except Exception as setup_error:
-                logger.error(f"Setup failed: {setup_error}")
-                # Continue anyway - API will return errors but at least it will start
-                return
-        
-        # Load vector store
-        logger.info("Loading vector store...")
-        vector_store = VectorStore()
-        vector_store.load()
-        
-        # Initialize retriever
-        logger.info("Initializing retriever...")
-        retriever = AssessmentRetriever(
-            vector_store=vector_store,
-            use_reranker=True,
-            use_llm_reranking=False  # Set to True to use Gemini for reranking
-        )
-        
-        logger.info("✓ API server ready!")
+            # Initialize retriever
+            logger.info("Initializing retriever...")
+            retriever = AssessmentRetriever(
+                vector_store=vector_store,
+                use_reranker=True,
+                use_llm_reranking=False  # Set to True to use Gemini for reranking
+            )
+            
+            logger.info("✓ API server ready!")
         
     except Exception as e:
         logger.error(f"Startup failed: {e}")
-        raise
+        logger.info("API will start anyway - setup on first request")
 
 
 @app.get("/", response_class=HTMLResponse)
@@ -159,11 +148,40 @@ async def recommend(request: RecommendationRequest):
     Returns:
         List of recommended assessments
     """
+    global vector_store, retriever
+    
+    # Auto-trigger setup if not done
     if retriever is None:
-        raise HTTPException(
-            status_code=503,
-            detail="Retriever not initialized. Check server logs."
-        )
+        logger.info("Triggering setup on first request...")
+        try:
+            import subprocess
+            import sys
+            # Run setup
+            subprocess.run([sys.executable, "scraper.py"], check=True, timeout=180)
+            subprocess.run([sys.executable, "vector_store.py"], check=True, timeout=300)
+            
+            # Load vector store
+            vector_store = VectorStore()
+            vector_store.load()
+            
+            # Initialize retriever
+            retriever = AssessmentRetriever(
+                vector_store=vector_store,
+                use_reranker=True,
+                use_llm_reranking=False
+            )
+            logger.info("Setup completed successfully!")
+        except subprocess.TimeoutExpired:
+            raise HTTPException(
+                status_code=503,
+                detail="Setup is taking too long. Please try again in a few minutes."
+            )
+        except Exception as e:
+            logger.error(f"Setup failed: {e}")
+            raise HTTPException(
+                status_code=503,
+                detail=f"System setup failed: {str(e)}. Please contact support."
+            )
     
     if not request.query or not request.query.strip():
         raise HTTPException(
