@@ -89,10 +89,29 @@ async def startup_event():
         logger.info(f"Python version: {sys.version}")
         logger.info(f"PORT environment variable: {os.environ.get('PORT', 'NOT SET')}")
         logger.info(f"Working directory: {os.getcwd()}")
+        
+        # Check if vector store exists
+        index_path = config.FAISS_INDEX_PATH / "index.faiss"
+        logger.info(f"Looking for vector store at: {index_path}")
+        logger.info(f"Vector store exists: {index_path.exists()}")
+        
+        if index_path.exists():
+            logger.info(f"Vector store file size: {index_path.stat().st_size} bytes")
+        else:
+            logger.error(f"Vector store NOT FOUND at {index_path}")
+            logger.error(f"Directory contents of {config.FAISS_INDEX_PATH}:")
+            if config.FAISS_INDEX_PATH.exists():
+                for item in config.FAISS_INDEX_PATH.iterdir():
+                    logger.error(f"  - {item.name}")
+            else:
+                logger.error(f"  Directory does not exist!")
+        
         logger.info("Server starting immediately (vector store will load on first request)")
         logger.info("="*80)
     except Exception as e:
         print(f"Error in startup logging: {e}", file=sys.stderr)
+        import traceback
+        traceback.print_exc()
     
     # Don't load anything here - let the port bind quickly
     # Loading will happen on first request to /recommend
