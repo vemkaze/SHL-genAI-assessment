@@ -71,37 +71,15 @@ class HealthResponse(BaseModel):
 
 @app.on_event("startup")
 async def startup_event():
-    """Initialize models on startup"""
+    """Initialize models on startup - Quick start, load in background"""
     global vector_store, retriever
     
     logger.info("Starting up API server...")
     logger.info(f"PORT environment variable: {os.environ.get('PORT', 'NOT SET')}")
+    logger.info("Server starting immediately (vector store will load on first request)")
     
-    try:
-        index_path = config.FAISS_INDEX_PATH / "index.faiss"
-        
-        if index_path.exists():
-            # Load existing vector store
-            logger.info("Loading vector store...")
-            vector_store = VectorStore()
-            vector_store.load()
-            
-            # Initialize retriever
-            logger.info("Initializing retriever...")
-            retriever = AssessmentRetriever(
-                vector_store=vector_store,
-                use_reranker=True,
-                use_llm_reranking=False
-            )
-            
-            logger.info("✓ API server ready!")
-        else:
-            logger.warning("Vector store not found. Run setup.py manually or use /setup endpoint")
-            logger.info("API server ready (setup required)")
-        
-    except Exception as e:
-        logger.error(f"Startup failed: {e}")
-        logger.info("API will start anyway")
+    # Don't load anything here - let the port bind quickly
+    # Loading will happen on first request to /recommend
 
 
 @app.get("/", response_class=HTMLResponse)
@@ -149,12 +127,39 @@ async def recommend(request: RecommendationRequest):
     """
     global vector_store, retriever
     
-    # Check if setup is needed
+    # Lazy load on first request
     if retriever is None:
-        raise HTTPException(
-            status_code=503,
-            detail="System not ready. Please run setup first by visiting /setup endpoint or running setup.py locally."
-        )
+        logger.info("Loading vector store on first request...")
+        try:
+            index_path = config.FAISS_INDEX_PATH / "index.faiss"
+            
+            if not index_path.exists():
+                raise HTTPException(
+                    status_code=503,
+                    detail="System not ready. Vector store not found. Please contact support."
+                )
+            
+            # Load vector store
+            vector_store = VectorStore()
+            vector_store.load()
+            
+            # Initialize retriever
+            retriever = AssessmentRetriever(
+                vector_store=vector_store,
+                use_reranker=True,
+                use_llm_reranking=False
+            )
+            
+            logger.info("✓ Vector store loaded successfully!")
+            
+        except HTTPException:
+            raise
+        except Exception as e:
+            logger.error(f"Failed to load vector store: {e}")
+            raise HTTPException(
+                status_code=503,
+                detail=f"Failed to initialize system: {str(e)}"
+            )
     
     if not request.query or not request.query.strip():
         raise HTTPException(
