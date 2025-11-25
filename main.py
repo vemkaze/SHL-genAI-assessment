@@ -140,22 +140,25 @@ async def recommend(request: RecommendationRequest):
                 )
             
             # Load vector store
+            logger.info("Loading FAISS index...")
             vector_store = VectorStore()
             vector_store.load()
+            logger.info(f"✓ Loaded {len(vector_store.assessments)} assessments")
             
-            # Initialize retriever
+            # Initialize retriever (without reranker for faster startup)
+            logger.info("Initializing retriever...")
             retriever = AssessmentRetriever(
                 vector_store=vector_store,
-                use_reranker=True,
+                use_reranker=False,  # Disabled for faster startup
                 use_llm_reranking=False
             )
             
-            logger.info("✓ Vector store loaded successfully!")
+            logger.info("✓ System ready!")
             
         except HTTPException:
             raise
         except Exception as e:
-            logger.error(f"Failed to load vector store: {e}")
+            logger.error(f"Failed to load vector store: {e}", exc_info=True)
             raise HTTPException(
                 status_code=503,
                 detail=f"Failed to initialize system: {str(e)}"
