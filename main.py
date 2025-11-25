@@ -1,19 +1,28 @@
 """
 FastAPI backend for SHL Assessment Recommendation System
 """
-from fastapi import FastAPI, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
-from fastapi.responses import HTMLResponse
-from pydantic import BaseModel, Field
-from typing import List, Dict, Optional
 import os
+import sys
 from pathlib import Path
 
-from config import config
-from utils import setup_logger
-from vector_store import VectorStore
-from retriever import AssessmentRetriever
+# Add proper error handling for startup
+try:
+    from fastapi import FastAPI, HTTPException
+    from fastapi.middleware.cors import CORSMiddleware
+    from fastapi.staticfiles import StaticFiles
+    from fastapi.responses import HTMLResponse
+    from pydantic import BaseModel, Field
+    from typing import List, Dict, Optional
+    
+    from config import config
+    from utils import setup_logger
+    from vector_store import VectorStore
+    from retriever import AssessmentRetriever
+except Exception as e:
+    print(f"FATAL ERROR during imports: {e}", file=sys.stderr)
+    import traceback
+    traceback.print_exc()
+    sys.exit(1)
 
 logger = setup_logger(__name__)
 
@@ -74,9 +83,16 @@ async def startup_event():
     """Initialize models on startup - Quick start, load in background"""
     global vector_store, retriever
     
-    logger.info("Starting up API server...")
-    logger.info(f"PORT environment variable: {os.environ.get('PORT', 'NOT SET')}")
-    logger.info("Server starting immediately (vector store will load on first request)")
+    try:
+        logger.info("="*80)
+        logger.info("Starting up API server...")
+        logger.info(f"Python version: {sys.version}")
+        logger.info(f"PORT environment variable: {os.environ.get('PORT', 'NOT SET')}")
+        logger.info(f"Working directory: {os.getcwd()}")
+        logger.info("Server starting immediately (vector store will load on first request)")
+        logger.info("="*80)
+    except Exception as e:
+        print(f"Error in startup logging: {e}", file=sys.stderr)
     
     # Don't load anything here - let the port bind quickly
     # Loading will happen on first request to /recommend
