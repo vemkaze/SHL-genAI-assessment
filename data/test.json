@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "query": "Senior software engineer with expertise in machine learning and Python"
+  },
+  {
+    "id": 2,
+    "query": "Marketing manager with creative thinking and strategic planning skills"
+  },
+  {
+    "id": 3,
+    "query": "Financial analyst requiring advanced numerical and analytical abilities"
+  },
+  {
+    "id": 4,
+    "query": "Operations manager with process optimization and leadership capabilities"
+  },
+  {
+    "id": 5,
+    "query": "UX designer position needing creativity and user research skills"
+  },
+  {
+    "id": 6,
+    "query": "Project manager role requiring organization and stakeholder management"
+  },
+  {
+    "id": 7,
+    "query": "Data engineer with SQL, ETL, and database management expertise"
+  },
+  {
+    "id": 8,
+    "query": "Business analyst requiring analytical thinking and communication skills"
+  },
+  {
+    "id": 9,
+    "query": "Quality assurance engineer with attention to detail and testing skills"
+  }
+]

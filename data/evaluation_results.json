@@ -1,0 +1,27 @@
+{
+  "baseline": {
+    "recall@10": 0.0,
+    "num_queries": 6,
+    "individual_recalls": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "improved": {
+    "recall@10": 0.0,
+    "num_queries": 6,
+    "individual_recalls": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "improvement_percent": 0
+}
