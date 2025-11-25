@@ -5,44 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHL Assessment Recommendation System</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #00d4aa 0%, #00b894 100%);
+        }
+        
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
         .spinner {
             border: 4px solid #f3f3f3;
-            border-top: 4px solid #3b82f6;
+            border-top: 4px solid #00d4aa;
             border-radius: 50%;
             width: 40px;
             height: 40px;
             animation: spin 1s linear infinite;
         }
+        
         @keyframes spin {
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+        
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 212, 170, 0.15);
+        }
+        
+        .score-bar {
+            height: 6px;
+            background: linear-gradient(90deg, #00d4aa 0%, #00b894 100%);
+            border-radius: 3px;
+            transition: width 0.5s ease;
+        }
     </style>
 </head>
-<body class="bg-gray-50">
-    <div class="min-h-screen py-8">
+<body class="bg-gradient-to-br from-gray-50 to-gray-100">
+    <div class="min-h-screen py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <!-- Header -->
-            <div class="text-center mb-8">
-                <h1 class="text-4xl font-bold text-gray-900 mb-2">
+            <div class="text-center mb-12 fade-in">
+                <div class="inline-block mb-4">
+                    <div class="gradient-bg text-white px-6 py-3 rounded-full text-sm font-semibold shadow-lg">
+                        <i class="fas fa-robot mr-2"></i>AI-Powered Assessment Recommendation
+                    </div>
+                </div>
+                <h1 class="text-5xl font-bold text-gray-900 mb-4 tracking-tight">
                     SHL Assessment Recommender
                 </h1>
-                <p class="text-lg text-gray-600">
-                    Find the perfect assessments for your hiring needs using AI-powered recommendations
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Find the perfect assessments for your hiring needs using advanced RAG technology
                 </p>
             </div>
 
             <!-- Search Box -->
-            <div class="bg-white rounded-lg shadow-md p-6 mb-8">
-                <div class="mb-4">
-                    <label for="query" class="block text-sm font-medium text-gray-700 mb-2">
-                        Describe your job role or requirements
+            <div class="glass-effect rounded-2xl shadow-2xl p-8 mb-8 card-hover">
+                <div class="mb-6">
+                    <label for="query" class="block text-sm font-semibold text-gray-700 mb-3 flex items-center">
+                        <i class="fas fa-search text-purple-600 mr-2"></i>
+                        Describe your hiring requirements
                     </label>
                     <textarea 
                         id="query" 
                         rows="4"
-                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
+                        class="w-full px-5 py-4 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-teal-500 focus:border-transparent resize-none transition-all text-gray-700 shadow-sm"
                         placeholder="E.g., I need assessments for a senior software developer position requiring Python, problem-solving skills, and team collaboration..."
                     ></textarea>
                 </div>
@@ -51,92 +100,87 @@
                     <button 
                         id="searchBtn"
                         onclick="searchAssessments()"
-                        class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors"
+                        class="gradient-bg text-white px-8 py-3 rounded-xl hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 transition-all font-semibold flex items-center"
                     >
+                        <i class="fas fa-magic mr-2"></i>
                         Get Recommendations
                     </button>
                     
                     <button 
                         onclick="clearResults()"
-                        class="bg-gray-200 text-gray-700 px-6 py-2 rounded-lg hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 transition-colors"
+                        class="bg-gray-200 text-gray-700 px-8 py-3 rounded-xl hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 transition-all font-semibold flex items-center"
                     >
+                        <i class="fas fa-eraser mr-2"></i>
                         Clear
                     </button>
 
-                    <div id="loading" class="hidden ml-4">
-                        <div class="spinner"></div>
+                    <div id="loading" class="hidden ml-4 flex items-center">
+                        <div class="spinner mr-3"></div>
+                        <span class="text-gray-600 font-medium">Analyzing...</span>
                     </div>
                 </div>
             </div>
 
             <!-- Example Queries -->
-            <div class="bg-blue-50 rounded-lg p-4 mb-8">
-                <p class="text-sm font-medium text-gray-700 mb-2">Try these examples:</p>
-                <div class="flex flex-wrap gap-2">
+            <div class="bg-gradient-to-r from-teal-50 to-green-50 rounded-2xl p-6 mb-8 border border-teal-100 shadow-sm">
+                <p class="text-sm font-semibold text-gray-700 mb-3 flex items-center">
+                    <i class="fas fa-lightbulb text-yellow-500 mr-2"></i>
+                    Try these examples:
+                </p>
+                <div class="flex flex-wrap gap-3">
                     <button onclick="setQuery('Software developer with Python and data analysis skills')" 
-                            class="text-xs bg-white px-3 py-1 rounded-full hover:bg-blue-100 transition-colors">
-                        Software Developer
+                            class="text-sm bg-white px-4 py-2 rounded-xl hover:shadow-md transition-all border border-gray-200 flex items-center font-medium text-gray-700">
+                        <i class="fas fa-code mr-2 text-teal-500"></i>Software Developer
                     </button>
                     <button onclick="setQuery('Sales manager with leadership and communication skills')" 
-                            class="text-xs bg-white px-3 py-1 rounded-full hover:bg-blue-100 transition-colors">
-                        Sales Manager
+                            class="text-sm bg-white px-4 py-2 rounded-xl hover:shadow-md transition-all border border-gray-200 flex items-center font-medium text-gray-700">
+                        <i class="fas fa-chart-line mr-2 text-green-500"></i>Sales Manager
                     </button>
                     <button onclick="setQuery('Graduate trainee program - cognitive and personality tests')" 
-                            class="text-xs bg-white px-3 py-1 rounded-full hover:bg-blue-100 transition-colors">
-                        Graduate Trainee
+                            class="text-sm bg-white px-4 py-2 rounded-xl hover:shadow-md transition-all border border-gray-200 flex items-center font-medium text-gray-700">
+                        <i class="fas fa-graduation-cap mr-2 text-teal-600"></i>Graduate Trainee
                     </button>
                     <button onclick="setQuery('Customer service representative with problem-solving abilities')" 
-                            class="text-xs bg-white px-3 py-1 rounded-full hover:bg-blue-100 transition-colors">
-                        Customer Service
+                            class="text-sm bg-white px-4 py-2 rounded-xl hover:shadow-md transition-all border border-gray-200 flex items-center font-medium text-gray-700">
+                        <i class="fas fa-headset mr-2 text-emerald-500"></i>Customer Service
                     </button>
                 </div>
             </div>
 
-            <!-- Results Table -->
-            <div id="resultsContainer" class="hidden bg-white rounded-lg shadow-md overflow-hidden">
-                <div class="px-6 py-4 border-b border-gray-200">
-                    <h2 class="text-xl font-semibold text-gray-900">
-                        Recommended Assessments (<span id="resultCount">0</span>)
-                    </h2>
+            <!-- Results Cards -->
+            <div id="resultsContainer" class="hidden fade-in">
+                <div class="bg-white rounded-2xl shadow-xl overflow-hidden mb-4">
+                    <div class="gradient-bg px-8 py-6">
+                        <h2 class="text-2xl font-bold text-white flex items-center">
+                            <i class="fas fa-clipboard-check mr-3"></i>
+                            Recommended Assessments (<span id="resultCount">0</span>)
+                        </h2>
+                    </div>
                 </div>
                 
-                <div class="overflow-x-auto">
-                    <table class="min-w-full divide-y divide-gray-200">
-                        <thead class="bg-gray-50">
-                            <tr>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                    #
-                                </th>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                    Assessment Name
-                                </th>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                    Type
-                                </th>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                    Duration
-                                </th>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                    Description
-                                </th>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                    Features
-                                </th>
-                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                    Link
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody id="resultsTable" class="bg-white divide-y divide-gray-200">
-                            <!-- Results will be inserted here -->
-                        </tbody>
-                    </table>
+                <div id="resultsGrid" class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <!-- Results will be inserted here as cards -->
                 </div>
             </div>
 
             <!-- Error Message -->
-            <div id="errorContainer" class="hidden bg-red-50 border border-red-200 rounded-lg p-4 mb-8">
-                <p class="text-red-800" id="errorMessage"></p>
+            <div id="errorContainer" class="hidden bg-red-50 border-2 border-red-200 rounded-2xl p-5 mb-8 shadow-lg fade-in">
+                <div class="flex items-center">
+                    <i class="fas fa-exclamation-circle text-red-500 text-xl mr-3"></i>
+                    <p class="text-red-800 font-medium" id="errorMessage"></p>
+                </div>
+            </div>
+            
+            <!-- Footer -->
+            <div class="text-center mt-12 text-gray-500 text-sm">
+                <p>
+                    <i class="fas fa-brain mr-1"></i>
+                    Powered by RAG (Retrieval Augmented Generation) • 
+                    <i class="fas fa-database ml-2 mr-1"></i>
+                    FAISS Vector Search • 
+                    <i class="fas fa-microchip ml-2 mr-1"></i>
+                    Cross-Encoder Reranking
+                </p>
             </div>
         </div>
     </div>
@@ -146,6 +190,7 @@
 
         function setQuery(text) {
             document.getElementById('query').value = text;
+            document.getElementById('query').focus();
         }
 
         function clearResults() {
@@ -175,12 +220,20 @@
             return types.map(t => typeMap[t] || t).join(', ');
         }
 
+        function getTypeIcon(types) {
+            if (types.includes('K')) return 'fa-book';
+            if (types.includes('P')) return 'fa-chart-bar';
+            if (types.includes('S')) return 'fa-users';
+            if (types.includes('B')) return 'fa-brain';
+            return 'fa-file-alt';
+        }
+
         function getTypeBadgeColor(types) {
-            if (types.includes('K')) return 'bg-blue-100 text-blue-800';
-            if (types.includes('P')) return 'bg-green-100 text-green-800';
-            if (types.includes('S')) return 'bg-purple-100 text-purple-800';
-            if (types.includes('B')) return 'bg-pink-100 text-pink-800';
-            return 'bg-gray-100 text-gray-800';
+            if (types.includes('K')) return 'bg-teal-100 text-teal-700 border-teal-200';
+            if (types.includes('P')) return 'bg-green-100 text-green-700 border-green-200';
+            if (types.includes('S')) return 'bg-emerald-100 text-emerald-700 border-emerald-200';
+            if (types.includes('B')) return 'bg-cyan-100 text-cyan-700 border-cyan-200';
+            return 'bg-gray-100 text-gray-700 border-gray-200';
         }
 
         async function searchAssessments() {
@@ -224,12 +277,12 @@
         }
 
         function displayResults(assessments) {
-            const resultsTable = document.getElementById('resultsTable');
+            const resultsGrid = document.getElementById('resultsGrid');
             const resultsContainer = document.getElementById('resultsContainer');
             const resultCount = document.getElementById('resultCount');
 
             // Clear previous results
-            resultsTable.innerHTML = '';
+            resultsGrid.innerHTML = '';
 
             if (!assessments || assessments.length === 0) {
                 showError('No assessments found for your query. Try different keywords.');
@@ -239,58 +292,68 @@
             // Update count
             resultCount.textContent = assessments.length;
 
-            // Add rows
+            // Add cards
             assessments.forEach((assessment, index) => {
-                const row = document.createElement('tr');
-                row.className = 'hover:bg-gray-50';
-                
                 const duration = assessment.duration ? `${assessment.duration} min` : 'N/A';
-                const description = assessment.description.length > 150 
-                    ? assessment.description.substring(0, 150) + '...' 
+                const description = assessment.description.length > 200 
+                    ? assessment.description.substring(0, 200) + '...' 
                     : assessment.description;
 
                 const features = [];
-                if (assessment.adaptive_support === 'yes') features.push('Adaptive');
-                if (assessment.remote_support === 'yes') features.push('Remote');
-                const featuresText = features.length > 0 ? features.join(', ') : '-';
+                if (assessment.adaptive_support === 'yes') features.push('<i class="fas fa-brain mr-1"></i>Adaptive');
+                if (assessment.remote_support === 'yes') features.push('<i class="fas fa-laptop-house mr-1"></i>Remote');
+                const featuresHTML = features.length > 0 ? features.join('&nbsp;&nbsp;') : '-';
 
-                row.innerHTML = `
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                        ${index + 1}
-                    </td>
-                    <td class="px-6 py-4 text-sm font-medium text-gray-900">
-                        ${assessment.name}
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                        <span class="px-2 py-1 text-xs font-medium rounded-full ${getTypeBadgeColor(assessment.test_type)}">
-                            ${getTypeLabel(assessment.test_type)}
-                        </span>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                        ${duration}
-                    </td>
-                    <td class="px-6 py-4 text-sm text-gray-700">
-                        ${description}
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                        ${featuresText}
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm">
+                const card = document.createElement('div');
+                card.className = 'bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all card-hover overflow-hidden border border-gray-100';
+                
+                card.innerHTML = `
+                    <div class="p-6">
+                        <div class="flex items-start justify-between mb-4">
+                            <div class="flex-1">
+                                <div class="flex items-center mb-2">
+                                    <span class="bg-gradient-to-r from-teal-500 to-green-500 text-white text-xs font-bold px-3 py-1 rounded-full mr-2">
+                                        #${index + 1}
+                                    </span>
+                                    <span class="px-3 py-1 text-xs font-semibold rounded-full border ${getTypeBadgeColor(assessment.test_type)}">
+                                        <i class="fas ${getTypeIcon(assessment.test_type)} mr-1"></i>
+                                        ${getTypeLabel(assessment.test_type)}
+                                    </span>
+                                </div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-1">${assessment.name}</h3>
+                            </div>
+                        </div>
+                        
+                        <p class="text-gray-600 text-sm mb-4 leading-relaxed">${description}</p>
+                        
+                        <div class="flex items-center justify-between mb-4 text-sm">
+                            <div class="flex items-center text-gray-500">
+                                <i class="fas fa-clock mr-2 text-teal-600"></i>
+                                <span class="font-medium">${duration}</span>
+                            </div>
+                            <div class="flex items-center text-gray-500">
+                                ${featuresHTML}
+                            </div>
+                        </div>
+                        
                         <a href="${assessment.url}" target="_blank" 
-                           class="text-blue-600 hover:text-blue-800 hover:underline">
-                            View
+                           class="block w-full gradient-bg text-white text-center py-3 rounded-xl hover:shadow-lg transition-all font-semibold">
+                            <i class="fas fa-external-link-alt mr-2"></i>
+                            View Assessment
                         </a>
-                    </td>
+                    </div>
                 `;
                 
-                resultsTable.appendChild(row);
+                resultsGrid.appendChild(card);
             });
 
             // Show results
             resultsContainer.classList.remove('hidden');
             
             // Smooth scroll to results
-            resultsContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            setTimeout(() => {
+                resultsContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }, 100);
         }
 
         // Allow Enter key to submit
