@@ -57,6 +57,9 @@ def main():
     # Use the current Python interpreter (from venv if activated)
     python_exe = sys.executable
     
+    # Check if running non-interactively (e.g., in CI/CD)
+    is_interactive = sys.stdin.isatty()
+    
     steps = [
         (f'"{python_exe}" scraper.py', "Scrape SHL catalog"),
         (f'"{python_exe}" vector_store.py', "Build vector store and embeddings"),
@@ -68,10 +71,14 @@ def main():
     for command, description in steps:
         if not run_command(command, description):
             failed_steps.append(description)
-            response = input(f"\n⚠️  Step failed. Continue anyway? (y/n): ")
-            if response.lower() != 'y':
-                logger.error("Setup aborted by user")
-                sys.exit(1)
+            if is_interactive:
+                response = input(f"\n⚠️  Step failed. Continue anyway? (y/n): ")
+                if response.lower() != 'y':
+                    logger.error("Setup aborted by user")
+                    sys.exit(1)
+            else:
+                logger.warning(f"Step failed (non-interactive mode): {description}")
+                logger.warning("Continuing with next step...")
     
     logger.info("\n" + "="*80)
     logger.info("SETUP COMPLETE")
