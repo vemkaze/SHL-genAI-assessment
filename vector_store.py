@@ -87,6 +87,14 @@ class VectorStore:
         if self.index is None:
             raise ValueError("Index not built. Call build_index first.")
         
+        # Lazy-load embedding generator if needed
+        if self.embedding_generator is None and hasattr(self, '_stored_config'):
+            logger.info("Lazy-loading embedding generator for query encoding...")
+            self.embedding_generator = EmbeddingGenerator(
+                model_name=self._stored_config['model_name'],
+                use_gemini=self._stored_config.get('use_gemini', False)
+            )
+        
         # Generate query embedding
         query_embedding = self.embedding_generator.encode_query(query)
         
@@ -139,12 +147,13 @@ class VectorStore:
         
         logger.info(f"✓ Vector store saved to {path}")
     
-    def load(self, path: str = None) -> None:
+    def load(self, path: str = None, load_embedding_model: bool = False) -> None:
         """
         Load index and metadata
         
         Args:
             path: Directory path to load from
+            load_embedding_model: Whether to load the embedding model (not needed for search-only)
         """
         if path is None:
             path = config.FAISS_INDEX_PATH
@@ -166,11 +175,16 @@ class VectorStore:
         
         self.dimension = stored_config['dimension']
         
-        # Initialize embedding generator with same config
-        self.embedding_generator = EmbeddingGenerator(
-            model_name=stored_config['model_name'],
-            use_gemini=stored_config.get('use_gemini', False)
-        )
+        # Initialize embedding generator with same config (but don't load model yet unless needed)
+        if load_embedding_model:
+            self.embedding_generator = EmbeddingGenerator(
+                model_name=stored_config['model_name'],
+                use_gemini=stored_config.get('use_gemini', False)
+            )
+        else:
+            # Store config for later initialization if needed
+            self._stored_config = stored_config
+            self.embedding_generator = None
         
         logger.info(f"✓ Vector store loaded from {path}")
         logger.info(f"  - {self.index.ntotal} vectors")

@@ -158,7 +158,7 @@ async def recommend(request: RecommendationRequest):
             # Load vector store
             logger.info("Loading FAISS index...")
             vector_store = VectorStore()
-            vector_store.load()
+            vector_store.load(load_embedding_model=False)  # Don't load embedding model yet
             logger.info(f"✓ Loaded {len(vector_store.assessments)} assessments")
             
             # Initialize retriever (without reranker for faster startup)
