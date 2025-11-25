@@ -75,27 +75,25 @@ async def startup_event():
     global vector_store, retriever
     
     logger.info("Starting up API server...")
+    logger.info(f"PORT environment variable: {os.environ.get('PORT', 'NOT SET')}")
     
     try:
         # Check if index exists
         index_path = config.FAISS_INDEX_PATH / "index.faiss"
         
         if not index_path.exists():
-            logger.warning("Vector store not found. Please run vector_store.py first.")
-            logger.info("Creating minimal vector store for demo...")
+            logger.warning("Vector store not found. Running setup...")
             
-            # Create minimal store if catalog exists
-            if config.CATALOG_JSON.exists():
-                from utils import load_json
-                from embeddings import EmbeddingGenerator
-                
-                assessments = load_json(config.CATALOG_JSON)
-                vector_store = VectorStore()
-                embedding_gen = EmbeddingGenerator()
-                vector_store.build_index(assessments[:50], embedding_gen)  # Use subset for quick startup
-                vector_store.save()
-            else:
-                logger.error("Catalog not found. Please run scraper.py first.")
+            # Run setup inline
+            try:
+                import subprocess
+                import sys
+                subprocess.run([sys.executable, "scraper.py"], check=True)
+                subprocess.run([sys.executable, "vector_store.py"], check=True)
+                logger.info("Setup completed successfully")
+            except Exception as setup_error:
+                logger.error(f"Setup failed: {setup_error}")
+                # Continue anyway - API will return errors but at least it will start
                 return
         
         # Load vector store
