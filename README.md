@@ -352,4 +352,4 @@ For questions about this implementation, please refer to the code comments and `
 
 ---
 
-**Built with ❤️ for SHL GenAI Assessment**
+
