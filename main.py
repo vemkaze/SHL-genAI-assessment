@@ -78,14 +78,10 @@ async def startup_event():
     logger.info(f"PORT environment variable: {os.environ.get('PORT', 'NOT SET')}")
     
     try:
-        # Start setup in background if needed
         index_path = config.FAISS_INDEX_PATH / "index.faiss"
         
-        if not index_path.exists():
-            logger.warning("Vector store not found. Will build on first request.")
-            logger.info("API server ready (setup will run on demand)")
-        else:
-            # Load vector store
+        if index_path.exists():
+            # Load existing vector store
             logger.info("Loading vector store...")
             vector_store = VectorStore()
             vector_store.load()
@@ -95,14 +91,17 @@ async def startup_event():
             retriever = AssessmentRetriever(
                 vector_store=vector_store,
                 use_reranker=True,
-                use_llm_reranking=False  # Set to True to use Gemini for reranking
+                use_llm_reranking=False
             )
             
             logger.info("✓ API server ready!")
+        else:
+            logger.warning("Vector store not found. Run setup.py manually or use /setup endpoint")
+            logger.info("API server ready (setup required)")
         
     except Exception as e:
         logger.error(f"Startup failed: {e}")
-        logger.info("API will start anyway - setup on first request")
+        logger.info("API will start anyway")
 
 
 @app.get("/", response_class=HTMLResponse)
@@ -150,38 +149,12 @@ async def recommend(request: RecommendationRequest):
     """
     global vector_store, retriever
     
-    # Auto-trigger setup if not done
+    # Check if setup is needed
     if retriever is None:
-        logger.info("Triggering setup on first request...")
-        try:
-            import subprocess
-            import sys
-            # Run setup
-            subprocess.run([sys.executable, "scraper.py"], check=True, timeout=180)
-            subprocess.run([sys.executable, "vector_store.py"], check=True, timeout=300)
-            
-            # Load vector store
-            vector_store = VectorStore()
-            vector_store.load()
-            
-            # Initialize retriever
-            retriever = AssessmentRetriever(
-                vector_store=vector_store,
-                use_reranker=True,
-                use_llm_reranking=False
-            )
-            logger.info("Setup completed successfully!")
-        except subprocess.TimeoutExpired:
-            raise HTTPException(
-                status_code=503,
-                detail="Setup is taking too long. Please try again in a few minutes."
-            )
-        except Exception as e:
-            logger.error(f"Setup failed: {e}")
-            raise HTTPException(
-                status_code=503,
-                detail=f"System setup failed: {str(e)}. Please contact support."
-            )
+        raise HTTPException(
+            status_code=503,
+            detail="System not ready. Please run setup first by visiting /setup endpoint or running setup.py locally."
+        )
     
     if not request.query or not request.query.strip():
         raise HTTPException(
@@ -224,6 +197,60 @@ async def recommend(request: RecommendationRequest):
         raise HTTPException(
             status_code=500,
             detail=f"Internal server error: {str(e)}"
+        )
+
+
+@app.get("/setup")
+async def run_setup():
+    """
+    Trigger system setup (scraping + vector store building)
+    This endpoint runs setup and returns immediately while work continues in background
+    """
+    global vector_store, retriever
+    
+    index_path = config.FAISS_INDEX_PATH / "index.faiss"
+    
+    if index_path.exists():
+        return {"status": "already_setup", "message": "System is already configured"}
+    
+    # Run setup inline (this will take time but we're already past startup)
+    try:
+        logger.info("Starting setup process...")
+        
+        # Import and run scraper
+        from scraper import scrape_all_assessments
+        logger.info("Scraping assessments...")
+        assessments = scrape_all_assessments()
+        logger.info(f"Scraped {len(assessments)} assessments")
+        
+        # Build vector store
+        logger.info("Building vector store...")
+        vector_store = VectorStore()
+        vector_store.build_from_assessments(assessments)
+        vector_store.save()
+        logger.info("Vector store saved")
+        
+        # Initialize retriever
+        logger.info("Initializing retriever...")
+        retriever = AssessmentRetriever(
+            vector_store=vector_store,
+            use_reranker=True,
+            use_llm_reranking=False
+        )
+        
+        logger.info("✓ Setup completed successfully!")
+        
+        return {
+            "status": "success",
+            "message": f"Setup complete. Indexed {len(assessments)} assessments.",
+            "total_assessments": len(assessments)
+        }
+        
+    except Exception as e:
+        logger.error(f"Setup failed: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Setup failed: {str(e)}"
         )
 
 
