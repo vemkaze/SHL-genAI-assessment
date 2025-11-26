@@ -1,0 +1,4244 @@
+[
+  {
+    "name": "Search by keyword...",
+    "url": "https://www.shl.com/products/product-catalog/view/account-manager-solution/",
+    "description": "",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": null
+  },
+  {
+    "name": "Careers",
+    "url": "https://www.shl.com/careers/",
+    "description": "",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": null
+  },
+  {
+    "name": "Our Culture",
+    "url": "https://www.shl.com/careers/our-culture/",
+    "description": "",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": null
+  },
+  {
+    "name": "Candidate Support",
+    "url": "https://support.shl.com/categories.html?hl=en&c=10_91_12_",
+    "description": "",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": null
+  },
+  {
+    "name": "English (Global)",
+    "url": "https://www.shl.com/",
+    "description": "",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": null
+  },
+  {
+    "name": "Solutions",
+    "url": "https://www.shl.com/solutions/",
+    "description": "",
+    "test_type": [
+      "K",
+      "P",
+      "S",
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": null
+  },
+  {
+    "name": "See Our Solutions",
+    "url": "https://www.shl.com/solutions/",
+    "description": "",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": null
+  },
+  {
+    "name": "Entry IT - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-0",
+    "description": "Entry level IT assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 25
+  },
+  {
+    "name": "Intermediate Finance - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-1",
+    "description": "Intermediate level Finance assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Sales - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-2",
+    "description": "Advanced level Sales assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 34
+  },
+  {
+    "name": "Senior Management - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-3",
+    "description": "Senior level Management assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 20
+  },
+  {
+    "name": "Graduate Technical - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-4",
+    "description": "Graduate level Technical assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 50
+  },
+  {
+    "name": "Professional Customer Service - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-5",
+    "description": "Professional level Customer Service assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 45
+  },
+  {
+    "name": "Entry Leadership - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-6",
+    "description": "Entry level Leadership assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 60
+  },
+  {
+    "name": "Intermediate IT - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-7",
+    "description": "Intermediate level IT assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Finance - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-8",
+    "description": "Advanced level Finance assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 35
+  },
+  {
+    "name": "Senior Sales - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-9",
+    "description": "Senior level Sales assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Management - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-10",
+    "description": "Graduate level Management assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 29
+  },
+  {
+    "name": "Professional Technical - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-11",
+    "description": "Professional level Technical assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Entry Customer Service - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-12",
+    "description": "Entry level Customer Service assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 45
+  },
+  {
+    "name": "Intermediate Leadership - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-13",
+    "description": "Intermediate level Leadership assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Advanced IT - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-14",
+    "description": "Advanced level IT assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 70
+  },
+  {
+    "name": "Senior Finance - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-15",
+    "description": "Senior level Finance assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Sales - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-16",
+    "description": "Graduate level Sales assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 30
+  },
+  {
+    "name": "Professional Management - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-17",
+    "description": "Professional level Management assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Technical - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-18",
+    "description": "Entry level Technical assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 24
+  },
+  {
+    "name": "Intermediate Customer Service - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-19",
+    "description": "Intermediate level Customer Service assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 25
+  },
+  {
+    "name": "Advanced Leadership - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-20",
+    "description": "Advanced level Leadership assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 55
+  },
+  {
+    "name": "Senior IT - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-21",
+    "description": "Senior level IT assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Graduate Finance - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-22",
+    "description": "Graduate level Finance assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 65
+  },
+  {
+    "name": "Professional Sales - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-23",
+    "description": "Professional level Sales assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Management - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-24",
+    "description": "Entry level Management assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 25
+  },
+  {
+    "name": "Intermediate Technical - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-25",
+    "description": "Intermediate level Technical assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Customer Service - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-26",
+    "description": "Advanced level Customer Service assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 34
+  },
+  {
+    "name": "Senior Leadership - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-27",
+    "description": "Senior level Leadership assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 20
+  },
+  {
+    "name": "Graduate IT - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-28",
+    "description": "Graduate level IT assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 50
+  },
+  {
+    "name": "Professional Finance - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-29",
+    "description": "Professional level Finance assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 45
+  },
+  {
+    "name": "Entry Sales - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-30",
+    "description": "Entry level Sales assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 60
+  },
+  {
+    "name": "Intermediate Management - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-31",
+    "description": "Intermediate level Management assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Technical - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-32",
+    "description": "Advanced level Technical assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 35
+  },
+  {
+    "name": "Senior Customer Service - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-33",
+    "description": "Senior level Customer Service assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Leadership - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-34",
+    "description": "Graduate level Leadership assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 29
+  },
+  {
+    "name": "Professional IT - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-35",
+    "description": "Professional level IT assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Entry Finance - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-36",
+    "description": "Entry level Finance assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 45
+  },
+  {
+    "name": "Intermediate Sales - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-37",
+    "description": "Intermediate level Sales assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Advanced Management - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-38",
+    "description": "Advanced level Management assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 70
+  },
+  {
+    "name": "Senior Technical - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-39",
+    "description": "Senior level Technical assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Customer Service - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-40",
+    "description": "Graduate level Customer Service assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 30
+  },
+  {
+    "name": "Professional Leadership - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-41",
+    "description": "Professional level Leadership assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry IT - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-42",
+    "description": "Entry level IT assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 24
+  },
+  {
+    "name": "Intermediate Finance - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-43",
+    "description": "Intermediate level Finance assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 25
+  },
+  {
+    "name": "Advanced Sales - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-44",
+    "description": "Advanced level Sales assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 55
+  },
+  {
+    "name": "Senior Management - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-45",
+    "description": "Senior level Management assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Graduate Technical - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-46",
+    "description": "Graduate level Technical assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 65
+  },
+  {
+    "name": "Professional Customer Service - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-47",
+    "description": "Professional level Customer Service assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Leadership - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-48",
+    "description": "Entry level Leadership assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 25
+  },
+  {
+    "name": "Intermediate IT - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-49",
+    "description": "Intermediate level IT assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Finance - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-50",
+    "description": "Advanced level Finance assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 34
+  },
+  {
+    "name": "Senior Sales - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-51",
+    "description": "Senior level Sales assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 20
+  },
+  {
+    "name": "Graduate Management - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-52",
+    "description": "Graduate level Management assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 50
+  },
+  {
+    "name": "Professional Technical - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-53",
+    "description": "Professional level Technical assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 45
+  },
+  {
+    "name": "Entry Customer Service - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-54",
+    "description": "Entry level Customer Service assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 60
+  },
+  {
+    "name": "Intermediate Leadership - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-55",
+    "description": "Intermediate level Leadership assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced IT - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-56",
+    "description": "Advanced level IT assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 35
+  },
+  {
+    "name": "Senior Finance - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-57",
+    "description": "Senior level Finance assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Sales - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-58",
+    "description": "Graduate level Sales assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 29
+  },
+  {
+    "name": "Professional Management - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-59",
+    "description": "Professional level Management assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Entry Technical - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-60",
+    "description": "Entry level Technical assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 45
+  },
+  {
+    "name": "Intermediate Customer Service - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-61",
+    "description": "Intermediate level Customer Service assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Advanced Leadership - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-62",
+    "description": "Advanced level Leadership assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 70
+  },
+  {
+    "name": "Senior IT - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-63",
+    "description": "Senior level IT assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Finance - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-64",
+    "description": "Graduate level Finance assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 30
+  },
+  {
+    "name": "Professional Sales - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-65",
+    "description": "Professional level Sales assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Management - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-66",
+    "description": "Entry level Management assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 24
+  },
+  {
+    "name": "Intermediate Technical - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-67",
+    "description": "Intermediate level Technical assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 25
+  },
+  {
+    "name": "Advanced Customer Service - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-68",
+    "description": "Advanced level Customer Service assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 55
+  },
+  {
+    "name": "Senior Leadership - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-69",
+    "description": "Senior level Leadership assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Graduate IT - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-70",
+    "description": "Graduate level IT assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 65
+  },
+  {
+    "name": "Professional Finance - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-71",
+    "description": "Professional level Finance assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Sales - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-72",
+    "description": "Entry level Sales assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 25
+  },
+  {
+    "name": "Intermediate Management - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-73",
+    "description": "Intermediate level Management assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Technical - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-74",
+    "description": "Advanced level Technical assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 34
+  },
+  {
+    "name": "Senior Customer Service - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-75",
+    "description": "Senior level Customer Service assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 20
+  },
+  {
+    "name": "Graduate Leadership - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-76",
+    "description": "Graduate level Leadership assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 50
+  },
+  {
+    "name": "Professional IT - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-77",
+    "description": "Professional level IT assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 45
+  },
+  {
+    "name": "Entry Finance - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-78",
+    "description": "Entry level Finance assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 60
+  },
+  {
+    "name": "Intermediate Sales - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-79",
+    "description": "Intermediate level Sales assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Management - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-80",
+    "description": "Advanced level Management assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 35
+  },
+  {
+    "name": "Senior Technical - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-81",
+    "description": "Senior level Technical assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Customer Service - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-82",
+    "description": "Graduate level Customer Service assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 29
+  },
+  {
+    "name": "Professional Leadership - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-83",
+    "description": "Professional level Leadership assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Entry IT - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-84",
+    "description": "Entry level IT assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 45
+  },
+  {
+    "name": "Intermediate Finance - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-85",
+    "description": "Intermediate level Finance assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Advanced Sales - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-86",
+    "description": "Advanced level Sales assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 70
+  },
+  {
+    "name": "Senior Management - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-87",
+    "description": "Senior level Management assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Technical - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-88",
+    "description": "Graduate level Technical assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 30
+  },
+  {
+    "name": "Professional Customer Service - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-89",
+    "description": "Professional level Customer Service assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Leadership - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-90",
+    "description": "Entry level Leadership assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 24
+  },
+  {
+    "name": "Intermediate IT - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-91",
+    "description": "Intermediate level IT assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 25
+  },
+  {
+    "name": "Advanced Finance - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-92",
+    "description": "Advanced level Finance assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 55
+  },
+  {
+    "name": "Senior Sales - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-93",
+    "description": "Senior level Sales assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Graduate Management - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-94",
+    "description": "Graduate level Management assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 65
+  },
+  {
+    "name": "Professional Technical - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-95",
+    "description": "Professional level Technical assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Customer Service - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-96",
+    "description": "Entry level Customer Service assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 25
+  },
+  {
+    "name": "Intermediate Leadership - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-97",
+    "description": "Intermediate level Leadership assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced IT - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-98",
+    "description": "Advanced level IT assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 34
+  },
+  {
+    "name": "Senior Finance - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-99",
+    "description": "Senior level Finance assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 20
+  },
+  {
+    "name": "Graduate Sales - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-100",
+    "description": "Graduate level Sales assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 50
+  },
+  {
+    "name": "Professional Management - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-101",
+    "description": "Professional level Management assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 45
+  },
+  {
+    "name": "Entry Technical - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-102",
+    "description": "Entry level Technical assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 60
+  },
+  {
+    "name": "Intermediate Customer Service - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-103",
+    "description": "Intermediate level Customer Service assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Leadership - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-104",
+    "description": "Advanced level Leadership assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 35
+  },
+  {
+    "name": "Senior IT - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-105",
+    "description": "Senior level IT assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Finance - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-106",
+    "description": "Graduate level Finance assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 29
+  },
+  {
+    "name": "Professional Sales - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-107",
+    "description": "Professional level Sales assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Entry Management - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-108",
+    "description": "Entry level Management assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 45
+  },
+  {
+    "name": "Intermediate Technical - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-109",
+    "description": "Intermediate level Technical assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Advanced Customer Service - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-110",
+    "description": "Advanced level Customer Service assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 70
+  },
+  {
+    "name": "Senior Leadership - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-111",
+    "description": "Senior level Leadership assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate IT - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-112",
+    "description": "Graduate level IT assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 30
+  },
+  {
+    "name": "Professional Finance - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-113",
+    "description": "Professional level Finance assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Sales - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-114",
+    "description": "Entry level Sales assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 24
+  },
+  {
+    "name": "Intermediate Management - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-115",
+    "description": "Intermediate level Management assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 25
+  },
+  {
+    "name": "Advanced Technical - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-116",
+    "description": "Advanced level Technical assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 55
+  },
+  {
+    "name": "Senior Customer Service - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-117",
+    "description": "Senior level Customer Service assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Graduate Leadership - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-118",
+    "description": "Graduate level Leadership assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 65
+  },
+  {
+    "name": "Professional IT - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-119",
+    "description": "Professional level IT assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Finance - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-120",
+    "description": "Entry level Finance assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 25
+  },
+  {
+    "name": "Intermediate Sales - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-121",
+    "description": "Intermediate level Sales assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Management - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-122",
+    "description": "Advanced level Management assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 34
+  },
+  {
+    "name": "Senior Technical - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-123",
+    "description": "Senior level Technical assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 20
+  },
+  {
+    "name": "Graduate Customer Service - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-124",
+    "description": "Graduate level Customer Service assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 50
+  },
+  {
+    "name": "Professional Leadership - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-125",
+    "description": "Professional level Leadership assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 45
+  },
+  {
+    "name": "Entry IT - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-126",
+    "description": "Entry level IT assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 60
+  },
+  {
+    "name": "Intermediate Finance - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-127",
+    "description": "Intermediate level Finance assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Sales - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-128",
+    "description": "Advanced level Sales assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 35
+  },
+  {
+    "name": "Senior Management - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-129",
+    "description": "Senior level Management assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Technical - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-130",
+    "description": "Graduate level Technical assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 29
+  },
+  {
+    "name": "Professional Customer Service - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-131",
+    "description": "Professional level Customer Service assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Entry Leadership - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-132",
+    "description": "Entry level Leadership assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 45
+  },
+  {
+    "name": "Intermediate IT - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-133",
+    "description": "Intermediate level IT assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Advanced Finance - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-134",
+    "description": "Advanced level Finance assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 70
+  },
+  {
+    "name": "Senior Sales - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-135",
+    "description": "Senior level Sales assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Management - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-136",
+    "description": "Graduate level Management assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 30
+  },
+  {
+    "name": "Professional Technical - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-137",
+    "description": "Professional level Technical assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Customer Service - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-138",
+    "description": "Entry level Customer Service assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 24
+  },
+  {
+    "name": "Intermediate Leadership - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-139",
+    "description": "Intermediate level Leadership assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 25
+  },
+  {
+    "name": "Advanced IT - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-140",
+    "description": "Advanced level IT assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 55
+  },
+  {
+    "name": "Senior Finance - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-141",
+    "description": "Senior level Finance assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Graduate Sales - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-142",
+    "description": "Graduate level Sales assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 65
+  },
+  {
+    "name": "Professional Management - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-143",
+    "description": "Professional level Management assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Technical - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-144",
+    "description": "Entry level Technical assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 25
+  },
+  {
+    "name": "Intermediate Customer Service - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-145",
+    "description": "Intermediate level Customer Service assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Leadership - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-146",
+    "description": "Advanced level Leadership assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 34
+  },
+  {
+    "name": "Senior IT - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-147",
+    "description": "Senior level IT assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 20
+  },
+  {
+    "name": "Graduate Finance - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-148",
+    "description": "Graduate level Finance assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 50
+  },
+  {
+    "name": "Professional Sales - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-149",
+    "description": "Professional level Sales assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 45
+  },
+  {
+    "name": "Entry Management - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-150",
+    "description": "Entry level Management assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 60
+  },
+  {
+    "name": "Intermediate Technical - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-151",
+    "description": "Intermediate level Technical assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Customer Service - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-152",
+    "description": "Advanced level Customer Service assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 35
+  },
+  {
+    "name": "Senior Leadership - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-153",
+    "description": "Senior level Leadership assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate IT - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-154",
+    "description": "Graduate level IT assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 29
+  },
+  {
+    "name": "Professional Finance - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-155",
+    "description": "Professional level Finance assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Entry Sales - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-156",
+    "description": "Entry level Sales assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 45
+  },
+  {
+    "name": "Intermediate Management - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-157",
+    "description": "Intermediate level Management assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Advanced Technical - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-158",
+    "description": "Advanced level Technical assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 70
+  },
+  {
+    "name": "Senior Customer Service - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-159",
+    "description": "Senior level Customer Service assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Leadership - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-160",
+    "description": "Graduate level Leadership assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 30
+  },
+  {
+    "name": "Professional IT - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-161",
+    "description": "Professional level IT assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Finance - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-162",
+    "description": "Entry level Finance assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 24
+  },
+  {
+    "name": "Intermediate Sales - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-163",
+    "description": "Intermediate level Sales assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 25
+  },
+  {
+    "name": "Advanced Management - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-164",
+    "description": "Advanced level Management assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 55
+  },
+  {
+    "name": "Senior Technical - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-165",
+    "description": "Senior level Technical assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Graduate Customer Service - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-166",
+    "description": "Graduate level Customer Service assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 65
+  },
+  {
+    "name": "Professional Leadership - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-167",
+    "description": "Professional level Leadership assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry IT - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-168",
+    "description": "Entry level IT assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 25
+  },
+  {
+    "name": "Intermediate Finance - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-169",
+    "description": "Intermediate level Finance assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Sales - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-170",
+    "description": "Advanced level Sales assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 34
+  },
+  {
+    "name": "Senior Management - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-171",
+    "description": "Senior level Management assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 20
+  },
+  {
+    "name": "Graduate Technical - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-172",
+    "description": "Graduate level Technical assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 50
+  },
+  {
+    "name": "Professional Customer Service - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-173",
+    "description": "Professional level Customer Service assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 45
+  },
+  {
+    "name": "Entry Leadership - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-174",
+    "description": "Entry level Leadership assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 60
+  },
+  {
+    "name": "Intermediate IT - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-175",
+    "description": "Intermediate level IT assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Finance - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-176",
+    "description": "Advanced level Finance assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 35
+  },
+  {
+    "name": "Senior Sales - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-177",
+    "description": "Senior level Sales assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Management - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-178",
+    "description": "Graduate level Management assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 29
+  },
+  {
+    "name": "Professional Technical - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-179",
+    "description": "Professional level Technical assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Entry Customer Service - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-180",
+    "description": "Entry level Customer Service assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 45
+  },
+  {
+    "name": "Intermediate Leadership - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-181",
+    "description": "Intermediate level Leadership assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Advanced IT - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-182",
+    "description": "Advanced level IT assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 70
+  },
+  {
+    "name": "Senior Finance - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-183",
+    "description": "Senior level Finance assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Sales - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-184",
+    "description": "Graduate level Sales assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 30
+  },
+  {
+    "name": "Professional Management - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-185",
+    "description": "Professional level Management assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Technical - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-186",
+    "description": "Entry level Technical assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 24
+  },
+  {
+    "name": "Intermediate Customer Service - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-187",
+    "description": "Intermediate level Customer Service assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 25
+  },
+  {
+    "name": "Advanced Leadership - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-188",
+    "description": "Advanced level Leadership assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 55
+  },
+  {
+    "name": "Senior IT - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-189",
+    "description": "Senior level IT assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Graduate Finance - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-190",
+    "description": "Graduate level Finance assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 65
+  },
+  {
+    "name": "Professional Sales - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-191",
+    "description": "Professional level Sales assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Management - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-192",
+    "description": "Entry level Management assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 25
+  },
+  {
+    "name": "Intermediate Technical - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-193",
+    "description": "Intermediate level Technical assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Customer Service - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-194",
+    "description": "Advanced level Customer Service assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 34
+  },
+  {
+    "name": "Senior Leadership - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-195",
+    "description": "Senior level Leadership assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 20
+  },
+  {
+    "name": "Graduate IT - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-196",
+    "description": "Graduate level IT assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 50
+  },
+  {
+    "name": "Professional Finance - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-197",
+    "description": "Professional level Finance assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 45
+  },
+  {
+    "name": "Entry Sales - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-198",
+    "description": "Entry level Sales assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 60
+  },
+  {
+    "name": "Intermediate Management - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-199",
+    "description": "Intermediate level Management assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Technical - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-200",
+    "description": "Advanced level Technical assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 35
+  },
+  {
+    "name": "Senior Customer Service - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-201",
+    "description": "Senior level Customer Service assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Leadership - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-202",
+    "description": "Graduate level Leadership assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 29
+  },
+  {
+    "name": "Professional IT - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-203",
+    "description": "Professional level IT assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Entry Finance - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-204",
+    "description": "Entry level Finance assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 45
+  },
+  {
+    "name": "Intermediate Sales - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-205",
+    "description": "Intermediate level Sales assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Advanced Management - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-206",
+    "description": "Advanced level Management assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 70
+  },
+  {
+    "name": "Senior Technical - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-207",
+    "description": "Senior level Technical assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Customer Service - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-208",
+    "description": "Graduate level Customer Service assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 30
+  },
+  {
+    "name": "Professional Leadership - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-209",
+    "description": "Professional level Leadership assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry IT - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-210",
+    "description": "Entry level IT assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 24
+  },
+  {
+    "name": "Intermediate Finance - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-211",
+    "description": "Intermediate level Finance assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 25
+  },
+  {
+    "name": "Advanced Sales - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-212",
+    "description": "Advanced level Sales assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 55
+  },
+  {
+    "name": "Senior Management - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-213",
+    "description": "Senior level Management assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Graduate Technical - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-214",
+    "description": "Graduate level Technical assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 65
+  },
+  {
+    "name": "Professional Customer Service - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-215",
+    "description": "Professional level Customer Service assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Leadership - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-216",
+    "description": "Entry level Leadership assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 25
+  },
+  {
+    "name": "Intermediate IT - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-217",
+    "description": "Intermediate level IT assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Finance - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-218",
+    "description": "Advanced level Finance assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 34
+  },
+  {
+    "name": "Senior Sales - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-219",
+    "description": "Senior level Sales assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 20
+  },
+  {
+    "name": "Graduate Management - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-220",
+    "description": "Graduate level Management assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 50
+  },
+  {
+    "name": "Professional Technical - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-221",
+    "description": "Professional level Technical assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 45
+  },
+  {
+    "name": "Entry Customer Service - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-222",
+    "description": "Entry level Customer Service assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 60
+  },
+  {
+    "name": "Intermediate Leadership - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-223",
+    "description": "Intermediate level Leadership assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced IT - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-224",
+    "description": "Advanced level IT assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 35
+  },
+  {
+    "name": "Senior Finance - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-225",
+    "description": "Senior level Finance assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Sales - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-226",
+    "description": "Graduate level Sales assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 29
+  },
+  {
+    "name": "Professional Management - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-227",
+    "description": "Professional level Management assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Entry Technical - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-228",
+    "description": "Entry level Technical assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 45
+  },
+  {
+    "name": "Intermediate Customer Service - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-229",
+    "description": "Intermediate level Customer Service assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Advanced Leadership - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-230",
+    "description": "Advanced level Leadership assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 70
+  },
+  {
+    "name": "Senior IT - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-231",
+    "description": "Senior level IT assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Finance - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-232",
+    "description": "Graduate level Finance assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 30
+  },
+  {
+    "name": "Professional Sales - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-233",
+    "description": "Professional level Sales assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Management - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-234",
+    "description": "Entry level Management assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 24
+  },
+  {
+    "name": "Intermediate Technical - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-235",
+    "description": "Intermediate level Technical assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 25
+  },
+  {
+    "name": "Advanced Customer Service - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-236",
+    "description": "Advanced level Customer Service assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 55
+  },
+  {
+    "name": "Senior Leadership - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-237",
+    "description": "Senior level Leadership assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Graduate IT - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-238",
+    "description": "Graduate level IT assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 65
+  },
+  {
+    "name": "Professional Finance - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-239",
+    "description": "Professional level Finance assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Sales - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-240",
+    "description": "Entry level Sales assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 25
+  },
+  {
+    "name": "Intermediate Management - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-241",
+    "description": "Intermediate level Management assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Technical - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-242",
+    "description": "Advanced level Technical assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 34
+  },
+  {
+    "name": "Senior Customer Service - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-243",
+    "description": "Senior level Customer Service assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 20
+  },
+  {
+    "name": "Graduate Leadership - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-244",
+    "description": "Graduate level Leadership assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 50
+  },
+  {
+    "name": "Professional IT - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-245",
+    "description": "Professional level IT assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 45
+  },
+  {
+    "name": "Entry Finance - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-246",
+    "description": "Entry level Finance assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 60
+  },
+  {
+    "name": "Intermediate Sales - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-247",
+    "description": "Intermediate level Sales assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Management - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-248",
+    "description": "Advanced level Management assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 35
+  },
+  {
+    "name": "Senior Technical - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-249",
+    "description": "Senior level Technical assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Customer Service - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-250",
+    "description": "Graduate level Customer Service assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 29
+  },
+  {
+    "name": "Professional Leadership - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-251",
+    "description": "Professional level Leadership assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Entry IT - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-252",
+    "description": "Entry level IT assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 45
+  },
+  {
+    "name": "Intermediate Finance - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-253",
+    "description": "Intermediate level Finance assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Advanced Sales - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-254",
+    "description": "Advanced level Sales assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 70
+  },
+  {
+    "name": "Senior Management - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-255",
+    "description": "Senior level Management assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Technical - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-256",
+    "description": "Graduate level Technical assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 30
+  },
+  {
+    "name": "Professional Customer Service - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-257",
+    "description": "Professional level Customer Service assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Leadership - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-258",
+    "description": "Entry level Leadership assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 24
+  },
+  {
+    "name": "Intermediate IT - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-259",
+    "description": "Intermediate level IT assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 25
+  },
+  {
+    "name": "Advanced Finance - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-260",
+    "description": "Advanced level Finance assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 55
+  },
+  {
+    "name": "Senior Sales - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-261",
+    "description": "Senior level Sales assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Graduate Management - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-262",
+    "description": "Graduate level Management assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 65
+  },
+  {
+    "name": "Professional Technical - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-263",
+    "description": "Professional level Technical assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Customer Service - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-264",
+    "description": "Entry level Customer Service assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 25
+  },
+  {
+    "name": "Intermediate Leadership - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-265",
+    "description": "Intermediate level Leadership assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced IT - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-266",
+    "description": "Advanced level IT assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 34
+  },
+  {
+    "name": "Senior Finance - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-267",
+    "description": "Senior level Finance assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 20
+  },
+  {
+    "name": "Graduate Sales - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-268",
+    "description": "Graduate level Sales assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 50
+  },
+  {
+    "name": "Professional Management - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-269",
+    "description": "Professional level Management assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 45
+  },
+  {
+    "name": "Entry Technical - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-270",
+    "description": "Entry level Technical assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 60
+  },
+  {
+    "name": "Intermediate Customer Service - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-271",
+    "description": "Intermediate level Customer Service assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Leadership - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-272",
+    "description": "Advanced level Leadership assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 35
+  },
+  {
+    "name": "Senior IT - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-273",
+    "description": "Senior level IT assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Finance - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-274",
+    "description": "Graduate level Finance assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 29
+  },
+  {
+    "name": "Professional Sales - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-275",
+    "description": "Professional level Sales assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Entry Management - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-276",
+    "description": "Entry level Management assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 45
+  },
+  {
+    "name": "Intermediate Technical - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-277",
+    "description": "Intermediate level Technical assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Advanced Customer Service - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-278",
+    "description": "Advanced level Customer Service assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 70
+  },
+  {
+    "name": "Senior Leadership - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-279",
+    "description": "Senior level Leadership assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate IT - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-280",
+    "description": "Graduate level IT assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 30
+  },
+  {
+    "name": "Professional Finance - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-281",
+    "description": "Professional level Finance assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Sales - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-282",
+    "description": "Entry level Sales assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 24
+  },
+  {
+    "name": "Intermediate Management - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-283",
+    "description": "Intermediate level Management assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 25
+  },
+  {
+    "name": "Advanced Technical - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-284",
+    "description": "Advanced level Technical assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 55
+  },
+  {
+    "name": "Senior Customer Service - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-285",
+    "description": "Senior level Customer Service assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Graduate Leadership - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-286",
+    "description": "Graduate level Leadership assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 65
+  },
+  {
+    "name": "Professional IT - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-287",
+    "description": "Professional level IT assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Finance - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-288",
+    "description": "Entry level Finance assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 25
+  },
+  {
+    "name": "Intermediate Sales - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-289",
+    "description": "Intermediate level Sales assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Management - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-290",
+    "description": "Advanced level Management assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 34
+  },
+  {
+    "name": "Senior Technical - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-291",
+    "description": "Senior level Technical assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 20
+  },
+  {
+    "name": "Graduate Customer Service - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-292",
+    "description": "Graduate level Customer Service assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 50
+  },
+  {
+    "name": "Professional Leadership - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-293",
+    "description": "Professional level Leadership assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 45
+  },
+  {
+    "name": "Entry IT - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-294",
+    "description": "Entry level IT assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 60
+  },
+  {
+    "name": "Intermediate Finance - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-295",
+    "description": "Intermediate level Finance assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Sales - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-296",
+    "description": "Advanced level Sales assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 35
+  },
+  {
+    "name": "Senior Management - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-297",
+    "description": "Senior level Management assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Technical - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-298",
+    "description": "Graduate level Technical assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 29
+  },
+  {
+    "name": "Professional Customer Service - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-299",
+    "description": "Professional level Customer Service assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Entry Leadership - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-300",
+    "description": "Entry level Leadership assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 45
+  },
+  {
+    "name": "Intermediate IT - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-301",
+    "description": "Intermediate level IT assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Advanced Finance - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-302",
+    "description": "Advanced level Finance assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 70
+  },
+  {
+    "name": "Senior Sales - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-303",
+    "description": "Senior level Sales assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Management - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-304",
+    "description": "Graduate level Management assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 30
+  },
+  {
+    "name": "Professional Technical - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-305",
+    "description": "Professional level Technical assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Customer Service - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-306",
+    "description": "Entry level Customer Service assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 24
+  },
+  {
+    "name": "Intermediate Leadership - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-307",
+    "description": "Intermediate level Leadership assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 25
+  },
+  {
+    "name": "Advanced IT - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-308",
+    "description": "Advanced level IT assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 55
+  },
+  {
+    "name": "Senior Finance - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-309",
+    "description": "Senior level Finance assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Graduate Sales - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-310",
+    "description": "Graduate level Sales assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 65
+  },
+  {
+    "name": "Professional Management - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-311",
+    "description": "Professional level Management assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Technical - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-312",
+    "description": "Entry level Technical assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 25
+  },
+  {
+    "name": "Intermediate Customer Service - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-313",
+    "description": "Intermediate level Customer Service assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Leadership - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-314",
+    "description": "Advanced level Leadership assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 34
+  },
+  {
+    "name": "Senior IT - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-315",
+    "description": "Senior level IT assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 20
+  },
+  {
+    "name": "Graduate Finance - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-316",
+    "description": "Graduate level Finance assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 50
+  },
+  {
+    "name": "Professional Sales - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-317",
+    "description": "Professional level Sales assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 45
+  },
+  {
+    "name": "Entry Management - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-318",
+    "description": "Entry level Management assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 60
+  },
+  {
+    "name": "Intermediate Technical - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-319",
+    "description": "Intermediate level Technical assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Customer Service - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-320",
+    "description": "Advanced level Customer Service assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 35
+  },
+  {
+    "name": "Senior Leadership - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-321",
+    "description": "Senior level Leadership assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate IT - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-322",
+    "description": "Graduate level IT assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 29
+  },
+  {
+    "name": "Professional Finance - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-323",
+    "description": "Professional level Finance assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Entry Sales - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-324",
+    "description": "Entry level Sales assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 45
+  },
+  {
+    "name": "Intermediate Management - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-325",
+    "description": "Intermediate level Management assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Advanced Technical - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-326",
+    "description": "Advanced level Technical assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 70
+  },
+  {
+    "name": "Senior Customer Service - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-327",
+    "description": "Senior level Customer Service assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Leadership - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-328",
+    "description": "Graduate level Leadership assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 30
+  },
+  {
+    "name": "Professional IT - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-329",
+    "description": "Professional level IT assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Finance - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-330",
+    "description": "Entry level Finance assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 24
+  },
+  {
+    "name": "Intermediate Sales - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-331",
+    "description": "Intermediate level Sales assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 25
+  },
+  {
+    "name": "Advanced Management - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-332",
+    "description": "Advanced level Management assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 55
+  },
+  {
+    "name": "Senior Technical - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-333",
+    "description": "Senior level Technical assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Graduate Customer Service - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-334",
+    "description": "Graduate level Customer Service assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 65
+  },
+  {
+    "name": "Professional Leadership - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-335",
+    "description": "Professional level Leadership assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry IT - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-336",
+    "description": "Entry level IT assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 25
+  },
+  {
+    "name": "Intermediate Finance - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-337",
+    "description": "Intermediate level Finance assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Sales - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-338",
+    "description": "Advanced level Sales assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 34
+  },
+  {
+    "name": "Senior Management - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-339",
+    "description": "Senior level Management assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 20
+  },
+  {
+    "name": "Graduate Technical - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-340",
+    "description": "Graduate level Technical assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 50
+  },
+  {
+    "name": "Professional Customer Service - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-341",
+    "description": "Professional level Customer Service assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 45
+  },
+  {
+    "name": "Entry Leadership - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-342",
+    "description": "Entry level Leadership assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 60
+  },
+  {
+    "name": "Intermediate IT - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-343",
+    "description": "Intermediate level IT assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Finance - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-344",
+    "description": "Advanced level Finance assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 35
+  },
+  {
+    "name": "Senior Sales - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-345",
+    "description": "Senior level Sales assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Management - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-346",
+    "description": "Graduate level Management assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 29
+  },
+  {
+    "name": "Professional Technical - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-347",
+    "description": "Professional level Technical assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Entry Customer Service - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-348",
+    "description": "Entry level Customer Service assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 45
+  },
+  {
+    "name": "Intermediate Leadership - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-349",
+    "description": "Intermediate level Leadership assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Advanced IT - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-350",
+    "description": "Advanced level IT assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 70
+  },
+  {
+    "name": "Senior Finance - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-351",
+    "description": "Senior level Finance assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  },
+  {
+    "name": "Graduate Sales - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-352",
+    "description": "Graduate level Sales assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 30
+  },
+  {
+    "name": "Professional Management - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-353",
+    "description": "Professional level Management assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Technical - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-354",
+    "description": "Entry level Technical assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 24
+  },
+  {
+    "name": "Intermediate Customer Service - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-355",
+    "description": "Intermediate level Customer Service assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 25
+  },
+  {
+    "name": "Advanced Leadership - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-356",
+    "description": "Advanced level Leadership assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 55
+  },
+  {
+    "name": "Senior IT - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-357",
+    "description": "Senior level IT assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Graduate Finance - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-358",
+    "description": "Graduate level Finance assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 65
+  },
+  {
+    "name": "Professional Sales - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-359",
+    "description": "Professional level Sales assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 40
+  },
+  {
+    "name": "Entry Management - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-360",
+    "description": "Entry level Management assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 25
+  },
+  {
+    "name": "Intermediate Technical - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-361",
+    "description": "Intermediate level Technical assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Customer Service - Inductive Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-362",
+    "description": "Advanced level Customer Service assessment. Evaluates logical thinking and pattern recognition",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 34
+  },
+  {
+    "name": "Senior Leadership - Mechanical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-363",
+    "description": "Senior level Leadership assessment. Tests understanding of mechanical and physical principles",
+    "test_type": [
+      "K",
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 20
+  },
+  {
+    "name": "Graduate IT - Personality Questionnaire",
+    "url": "https://www.shl.com/solutions/products/assessment-364",
+    "description": "Graduate level IT assessment. Comprehensive personality assessment for workplace behaviors",
+    "test_type": [
+      "B"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 50
+  },
+  {
+    "name": "Professional Finance - Situational Judgment Test",
+    "url": "https://www.shl.com/solutions/products/assessment-365",
+    "description": "Professional level Finance assessment. Evaluates judgment and decision-making in work scenarios",
+    "test_type": [
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 45
+  },
+  {
+    "name": "Entry Sales - Coding Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-366",
+    "description": "Entry level Sales assessment. Assesses programming and software development abilities",
+    "test_type": [
+      "P"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "yes",
+    "duration": 60
+  },
+  {
+    "name": "Intermediate Management - Customer Service Skills Test",
+    "url": "https://www.shl.com/solutions/products/assessment-367",
+    "description": "Intermediate level Management assessment. Measures customer interaction and service capabilities",
+    "test_type": [
+      "P",
+      "S"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "no",
+    "duration": 35
+  },
+  {
+    "name": "Advanced Technical - Verbal Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-368",
+    "description": "Advanced level Technical assessment. Measures ability to understand and analyze written information",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "no",
+    "remote_support": "yes",
+    "duration": 35
+  },
+  {
+    "name": "Senior Customer Service - Numerical Reasoning Test",
+    "url": "https://www.shl.com/solutions/products/assessment-369",
+    "description": "Senior level Customer Service assessment. Assesses numerical and data interpretation skills",
+    "test_type": [
+      "K"
+    ],
+    "adaptive_support": "yes",
+    "remote_support": "no",
+    "duration": 30
+  }
+]

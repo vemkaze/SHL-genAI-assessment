@@ -8,12 +8,6 @@
         "cmds": [
           "pip install -r requirements.txt"
         ]
-      },
-      "build": {
-        "cmds": [
-          "python scraper.py",
-          "python vector_store.py"
-        ]
       }
     }
   }

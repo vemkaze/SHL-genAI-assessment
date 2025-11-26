@@ -9,9 +9,8 @@ venv/
 ENV/
 .venv
 
-# Data and models (large files)
-data/faiss_index/
-*.faiss
+# Large model files only - keep vector store
+# data/faiss_index/ - COMMENTED OUT so vector store is included
 
 # Environment variables
 .env
